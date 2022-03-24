@@ -101,3 +101,18 @@ Worth Wild BE Repository consumes an external API from [RedList](https://api.red
 </p>
 
 #### Contributors:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <!-- Devin -->
+  <td align="center"><a href="https://github.com/devin-p-lay"><img src="https://avatars.githubusercontent.com/u/87088092?v=4" width="100px;" alt=""/><br /><sub><b>Devin (he/him)</b></sub></a><br /><a href="https://github.com/devin-p-lay/Worth-Wild/worth_wild_be/commits?author=devin-p-lay" title="Code">💻</a> <a href="#ideas-devin-p-lay" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/devin-p-lay/Worth-Wild/worth_wild_be/commits?author=devin-p-lay" title="Tests">⚠️</a> <a href="https://github.com/devin-p-lay/Worth-Wild/worth_wild_be/pulls?q=is%3Apr+reviewed-by%3Ajdevin-p-lay" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
