@@ -63,7 +63,7 @@ wildlife_key: <enter your key here>
 
 ## <div align="center">Overview</div>
 
-Worth Wild BE Repository consumes an external API from [RedList](https://api.redlist.au.dk/docs) to expose the Worth Wild API for the front-end application to consume.
+Worth Wild BE Repository consumes data from multiple APIs to expose the Worth Wild API for the front-end application to consume.
 
 
 ####  Learning Goals Achieved
