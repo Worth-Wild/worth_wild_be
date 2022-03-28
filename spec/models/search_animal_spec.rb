@@ -10,4 +10,25 @@ RSpec.describe SearchAnimal, type: :model do
     it {should validate_presence_of(:element_code)}
     it {should validate_presence_of(:common_name)}
   end
+
+  describe 'class method' do
+    describe '.find_animal' do
+      before do
+        SearchAnimal.destroy_all
+        animal = SearchAnimal.create!(common_name: 'test', element_code: 'AA22')
+        @animal2 = SearchAnimal.create!(common_name: 'wade', element_code: 'AB22')
+        animal3 = SearchAnimal.create!(common_name: 'wade test', element_code: 'AC22')
+      end
+
+      context 'when animal is given' do
+        it "returns multiple records belonging to animal" do
+          expect(SearchAnimal.find_animal('wade').size).to eq(2)
+        end
+
+        it "returns record containing to the search" do
+          expect(SearchAnimal.find_animal('wade').first).to eq(@animal2)
+        end
+      end
+    end
+  end
 end
