@@ -10,21 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_27_151545) do
+ActiveRecord::Schema.define(version: 2022_03_27_172400) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "animals", force: :cascade do |t|
-    t.string "element_code"
-    t.string "common_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "user_animals", force: :cascade do |t|
-    t.bigint "user_id"
-    t.bigint "animal_id"
+    t.bigint "search_animal_id"
     t.string "common_name"
     t.string "scientific_name"
     t.string "kingdom"
@@ -43,6 +35,21 @@ ActiveRecord::Schema.define(version: 2022_03_27_151545) do
     t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["search_animal_id"], name: "index_animals_on_search_animal_id"
+  end
+
+  create_table "search_animals", force: :cascade do |t|
+    t.string "element_code"
+    t.string "common_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "user_animals", force: :cascade do |t|
+    t.bigint "user_id"
+    t.bigint "animal_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["animal_id"], name: "index_user_animals_on_animal_id"
     t.index ["user_id"], name: "index_user_animals_on_user_id"
   end
@@ -56,6 +63,7 @@ ActiveRecord::Schema.define(version: 2022_03_27_151545) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "animals", "search_animals"
   add_foreign_key "user_animals", "animals"
   add_foreign_key "user_animals", "users"
 end
