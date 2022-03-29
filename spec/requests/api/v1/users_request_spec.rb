@@ -35,7 +35,7 @@ RSpec.describe 'User Path' do
       'pop_size': '10,000 to >1,000,000 individuals',
       'image': 'example.com/black%20bear')
       user_animal = UserAnimal.create(user_id: user_1.id, animal_id: bear.id)
-      get '/api/v1/dashboard', params: {email: 'billybob@example.com'}
+      get '/api/v1/dashboard', params: {username: 'billybob'}
       user = JSON.parse(response.body, symbolize_names: true)
 
       expect(response).to be_successful
