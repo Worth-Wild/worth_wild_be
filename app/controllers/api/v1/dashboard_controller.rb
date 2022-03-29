@@ -1,6 +1,6 @@
 class Api::V1::DashboardController < ApplicationController
   def show
-    user = User.find_by(email: params[:email])
+    user = User.find_by(username: params[:username])
     if user == nil
       render json: {error: 'Invalid User'}, status: 400
     else
