@@ -9,15 +9,16 @@ RSpec.describe SearchAnimal, type: :model do
   describe 'validations' do
     it {should validate_presence_of(:element_code)}
     it {should validate_presence_of(:common_name)}
+    it {should validate_presence_of(:scientific_name)}
   end
 
   describe 'class method' do
     describe '.find_animal' do
       before do
         SearchAnimal.destroy_all
-        animal = SearchAnimal.create!(common_name: 'test', element_code: 'AA22')
-        @animal2 = SearchAnimal.create!(common_name: 'wade', element_code: 'AB22')
-        animal3 = SearchAnimal.create!(common_name: 'wade test', element_code: 'AC22')
+        animal = SearchAnimal.create!(common_name: 'test', element_code: 'AA22', scientific_name: 'test')
+        @animal2 = SearchAnimal.create!(common_name: 'wade', element_code: 'AB22', scientific_name: 'test')
+        animal3 = SearchAnimal.create!(common_name: 'wade test', element_code: 'AC22', scientific_name: 'test')
       end
 
       context 'when animal is given' do
