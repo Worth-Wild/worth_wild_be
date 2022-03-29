@@ -26,4 +26,4 @@ bear = Animal.create('common_name': 'american black bear',
 'short_term_trend': 'Populations have increased recently in the northeastern U.S.',
 'pop_size': '10,000 to >1,000,000 individuals',
 'image': 'https://tse1.mm.bing.net/th?id=OIP.EozSp55ljvd5v2-qI3vdlAHaFp&pid=Api')
-UserAnimal.create(user_id: brian, animal_id: bear.id)
+UserAnimal.create(user_id: brian.id, animal_id: bear.id)
