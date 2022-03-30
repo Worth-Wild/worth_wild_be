@@ -2615,7 +2615,7 @@ Hirsts' Panicgrass,Dichanthelium hirstii,PMPOA4K150
 Florida Crabgrass,Digitaria floridana,PMPOA270D0
 Longleaf Crabgrass,Digitaria gracillima,PMPOA270E0
 Two-spike Crabgrass,Digitaria pauciflora,PMPOA270P0
-,Echeandia texensis,PMLIL2B070
+Texas Shooting Star,Echeandia texensis,PMLIL2B070
 Florida Burhead,Echinodorus floridanus,PMALI02060
 Cylinder Spikerush,Eleocharis cylindrica,PMCYP090G0
 Fosberg's Lovegrass,Eragrostis fosbergii,PMPOA2K0J0
@@ -2629,7 +2629,7 @@ Gray's Fritillary,Fritillaria grayana,PMLIL0V0M0
 Striped Adobe Lily,Fritillaria striata,PMLIL0V0K0
 Lanai Saw Sedge,Gahnia lanaiensis,PMCYP0D040
 Two-Keeled Hooded Orchid,Galeandra bicarinata,PMORC15020
-,Greenwoodiella deserticola,PMGRE01010
+Chihuahuan Desert Orchid,Greenwoodiella deserticola,PMGRE01010
 Gholson's Spider-lily,Hymenocallis gholsonii,PMLIL150W0
 Godfrey's Spider-lily,Hymenocallis godfreyi,PMLIL150S0
 Florida Panhandle Spider-lily,Hymenocallis punta-gordensis,PMLIL150U0
@@ -2703,7 +2703,7 @@ Persistent Trillium,Trillium persistens,PMLIL200N0
 Tennessee Trillium,Trillium tennesseense,PMLIL20180
 Craighead's Nodding-caps,Triphora craigheadii,PMORC2F010
 Yucatan Nodding-caps,Triphora yucatanensis,PMORC2F060
-,Triteleia piutensis,PMLIL210H0
+Piute Mountains triteleia,Triteleia piutensis,PMLIL210H0
 Green's Awnless Orcutt Grass,Tuctoria greenei,PMPOA6N010
 Mucronate Orcutt Grass,Tuctoria mucronata,PMPOA6N020
 Correll's Yelloweyed Grass,Xyris correlliorum,PMXYR010V0
@@ -3012,8 +3012,8 @@ Scrub Balm,Dicerandra frutescens,PDLAM0F022
 Spotless Balm,Dicerandra immaculata,PDLAM0F030
 Blushing Scrub Balm,Dicerandra modesta,PDLAM0F021
 Radford's Dicerandra,Dicerandra radfordiana,PDLAM0F070
-,Diplacus brandegeei,PDSCR220G0
-,Dirca decipiens,PDTHY03030
+Santa Cruz Island monkeyflower,Diplacus brandegeei,PDSCR220G0
+Ozark leatherwood,Dirca decipiens,PDTHY03030
 Beach Spectacle-pod,Dithyrea maritima,PDBRA10020
 Slender-horned Spineflower,Dodecahema leptoceras,PDPGN0V010
 Bloom Peak Douglasia,Douglasia conservatorum,PDPRI04100
@@ -3091,11 +3091,11 @@ Delta Coyote-thistle,Eryngium racemosum,PDAPI0Z0S0
 Arizona Eryngo,Eryngium sparganophyllum,PDAPI0Z0T0
 Menzies' Wallflower,Erysimum menziesii,PDBRA160R0
 Santa Cruz Wallflower,Erysimum teretifolium,PDBRA160N0
-,Erythranthe angulosa,PDPHR01220
-,Erythranthe bergeri,PDPHR01210
+Seep Monkeyflowers,Erythranthe angulosa,PDPHR01220
+Mad pupper,Erythranthe bergeri,PDPHR01210
 Spring Mountains Monkeyflower,Erythranthe charlestonensis,PDPHR01270
 Santa Lucia Monkeyflower,Erythranthe hardhamiae,PDPHR01030
-,Erythranthe plotocalyx,PDPHR01200
+Southwest Monkeyflower,Erythranthe plotocalyx,PDPHR01200
 Red Rock Canyon Monkeyflower,Erythranthe rhodopetra,PDPHR01040
 Diamond-petal California Poppy,Eschscholzia rhombipetala,PDPAP0A0D0
 Guadalupe Pincushion Cactus,Escobaria guadalupensis,PDCAC0X030
@@ -3177,7 +3177,7 @@ Lanai Hesperomannia,Hesperomannia arborescens,PDAST4T010
 Maui Island-aster,Hesperomannia arbuscula,PDAST4T020
 Kauai Hesperomannia,Hesperomannia lydgatei,PDAST4T030
 Spokane False Goldenaster,Heterotheca barbata,PDAST4V0R0
-,Heterotheca postpetrinis,PDAST4V1L0
+lemonyellow false goldenaster,Heterotheca postpetrinis,PDAST4V1L0
 Finzel's Wild Ginger,Hexastylis finzelii,PDARI030D0
 Kauai Hau Kuahiwi,Hibiscadelphus distans,PDMAL0G020
 Wood's Hau Kuahiwi,Hibiscadelphus woodii,PDMAL0G080
@@ -3227,7 +3227,7 @@ Ridgetop Labordia,Labordia hosakana,PDLOG060R0
 Waianae Range Labordia,Labordia kaalae,PDLOG060B0
 Wahiawa Mountain Labordia,Labordia lydgatei,PDLOG060C0
 Kauai Labordia,Labordia pumila,PDLOG060L0
-,Labordia triflora,PDLOG060N0
+three-flower labordia,Labordia triflora,PDLOG060N0
 Turner's Woolwort,Laennecia turnerorum,PDASTDL060
 Burke's Goldfields,Lasthenia burkei,PDAST5L010
 Contra Costa Goldfields,Lasthenia conjugens,PDAST5L040
@@ -3277,7 +3277,7 @@ Waianae Range Lobelia,Lobelia monostachya,PDCAM0E1E0
 Oahu Lobelia,Lobelia oahuensis,PDCAM0E100
 Hairy Lobelia,Lobelia villosa,PDCAM0E1B0
 Wupatki Calico,Loeseliastrum franciscanum,PDPLM0G030
-,Lomatium bentonitum,PDAPI1B2M0
+Bentonite Biscuitroot,Lomatium bentonitum,PDAPI1B2M0
 Agate Desert Lomatium,Lomatium cookii,PDAPI1B250
 Red-fruit Lomatium,Lomatium erythrocarpum,PDAPI1B260
 Greenman's Lomatium,Lomatium greenmanii,PDAPI1B0R0
@@ -3377,8 +3377,8 @@ Kokee Colicwood,Myrsine knudsenii,PDMRS04090
 Narrowleaf Colicwood,Myrsine linearifolia,PDMRS040D0
 Hanapepe River Colicwood,Myrsine mezii,PDMRS040F0
 Violet Lake Colicwood,Myrsine vaccinioides,PDMRS040P0
-,Navarretia willamettensis,PDPLM0C110
-,Nemacladus calcaratus,PDCAM0F0E0
+Willamette navarretia,Navarretia willamettensis,PDPLM0C110
+Chimney Creek nemacladus,Nemacladus calcaratus,PDCAM0F0E0
 Twisselmann's Nemacladus,Nemacladus twisselmannii,PDCAM0F0D0
 Angular-fruit Neraudia,Neraudia angulata,PDURT05010
 Kauai Neraudia,Neraudia kauaiensis,PDURT05040
@@ -3499,7 +3499,7 @@ Elusive Jacob's-ladder,Polemonium elusum,PDPLM0E0U0
 Nevada Polemonium,Polemonium nevadense,PDPLM0E0E0
 Huachuca Mountain Milkwort,Polygala piliophora,PDPGL021A0
 Tiny Polygala,Polygala smallii,PDPGL021P0
-,Polygonum gabrielae,PDPGN0LZ60
+Laycock Creek,Polygonum gabrielae,PDPGN0LZ60
 Hickman's Knotweed,Polygonum hickmanii,PDPGN0L310
 Heartleaf Leafcup,Polymnia cossatotensis,PDAST7G040
 Grit Portulaca,Portulaca biloba,PDPOR060R0
@@ -3632,7 +3632,7 @@ Porter's Goldenrod,Solidago porteri,PDAST8P1E0
 Short's Goldenrod,Solidago shortii,PDAST8P1T0
 Voss's Goldenrod,Solidago vossii,PDAST8P4E0
 Gypsum Necklace,Sophora gypsophila,PDFAB3N040
-,Spermolepis infernensis,PDAPI23070
+Flat Cat flower,Spermolepis infernensis,PDAPI23070
 Organ Mountains Scaleseed,Spermolepis organensis,PDAPI23050
 Smoky Mountain Globemallow,Sphaeralcea fumariensis,PDMAL14095
 Gierisch's Globemallow,Sphaeralcea gierischii,PDMAL140T0
@@ -3650,7 +3650,6 @@ Kalalau Valley Stenogyne,Stenogyne campanulata,PDLAM1Y100
 Kohala Mountain Stenogyne,Stenogyne cranwelliae,PDLAM1Y080
 Keal's Stenogyne,Stenogyne kealiae,PDLAM1Y110
 Malheur Wire-lettuce,Stephanomeria malheurensis,PDAST8U080
-,Stephanomeria occultata,PDAST8U0N0
 Bracted Twistflower,Streptanthus bracteatus,PDBRA2G080
 Mt. Hamilton Jewelflower,Streptanthus callistus,PDBRA2G0A0
 June's Jewelflower,Streptanthus juneae,PDBRA2G540
@@ -3660,7 +3659,6 @@ Mason's Neststraw,Stylocline masonii,PDAST8Y080
 Palo de Jazmin,Styrax portoricensis,PDSTY02050
 California Sea-blite,Suaeda californica,PDCHE0P020
 Roland's Sea-blite,Suaeda rolandii,PDCHE0P0J0
-,Symphyotrichum estesii,PDASTE9000
 Gulf of St. Lawrence Aster,Symphyotrichum laurentianum,PDASTE8020
 Rhiannon's Aster,Symphyotrichum rhiannon,PDASTE8910
 Charleston Kittentails,Synthyris ranunculina,PDSCR1W070
@@ -3771,7 +3769,6 @@ a liverwort,Cylindrocolea planifolia,NBHEP13010
 Griffith's Whipwort,Dendrobazzania griffithiana,NBHEP0A0A0
 a liverwort,Drepanolejeunea mosenii,NBHEP17020
 a liverwort,Frullania chilcootiensis,NBHEP1A060
-,Frullania sabaliana,NBHEP1A0X0
 Campbell's Liverwort,Geothallus tuberosus,NBHEP1C010
 a liverwort,Gymnomitrion mucrophorum,NBHEP1E070
 a notchwort,Isopaches alboviridis,NBHEP1Y010

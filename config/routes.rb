@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :search_animal, only:[:index]
       resources :users, only: [:index, :create]
       get '/dashboard',to: 'dashboard#show'
+      resources :animals, only: [:index, :show]
     end
   end
 end
