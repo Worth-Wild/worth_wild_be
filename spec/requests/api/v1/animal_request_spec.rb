@@ -24,4 +24,5 @@ RSpec.describe 'Animal Request' do
 
       expect(response).to be_successful
     end
+  end 
 end
