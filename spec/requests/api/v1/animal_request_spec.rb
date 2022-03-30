@@ -17,9 +17,12 @@ RSpec.describe 'Animal Request' do
     end
   end
 
-  describe 'GET /animals/:id' do
+  describe 'GET /animal' do
     it "returns a single animal's information" do
-      get '/api/v1/animals/:id'
+      get '/api/v1/animal', params: {
+        "element_code": "AAAAE01010",
+        "common_name": "Black Warrior Waterdog",
+        "scientific_name": "Necturus alabamensis"  }
       animal = JSON.parse(response.body, symbolize_names: true)
 
       expect(response).to be_successful
