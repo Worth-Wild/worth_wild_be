@@ -19,10 +19,10 @@ RSpec.describe 'Animal Request' do
 
   describe 'GET /animals/:id' do
     it "returns a single animal's information" do
-      get '/api/v1/animal/:id'
+      get '/api/v1/animals/:id'
       animal = JSON.parse(response.body, symbolize_names: true)
 
       expect(response).to be_successful
     end
-  end 
+  end
 end
