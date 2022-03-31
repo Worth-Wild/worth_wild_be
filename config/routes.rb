@@ -4,7 +4,8 @@ Rails.application.routes.draw do
       resources :search_animal, only:[:index]
       resources :users, only: [:index, :create]
       get '/dashboard',to: 'dashboard#show'
-      resources :animals, only: [:index, :show]
+      resources :animals, only: [:index]
+      get '/animal',to: 'animals#show'
     end
   end
 end

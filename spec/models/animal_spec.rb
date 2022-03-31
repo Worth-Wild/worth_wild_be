@@ -13,7 +13,6 @@ RSpec.describe Animal, type: :model do
     it { should validate_presence_of(:taxclass)}
     it { should validate_presence_of(:taxorder)}
     it { should validate_presence_of(:family)}
-    it { should validate_presence_of(:biome)}
     it { should validate_presence_of(:states)}
     it { should validate_presence_of(:habitats)}
     it { should validate_presence_of(:habitat_comments)}

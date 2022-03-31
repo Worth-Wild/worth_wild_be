@@ -9,7 +9,6 @@ class Animal < ApplicationRecord
   validates :taxorder, presence: true
   validates :family, presence: true
   validates :genus, presence: true
-  validates :biome, presence: true
   validates :states, presence: true
   validates :habitats, presence: true
   validates :habitat_comments, presence: true

@@ -15,4 +15,16 @@ RSpec.describe 'Animal Request' do
       expect(animals[:data][5][:attributes][:common_name]).to eq 'Dixie Valley Toad'
     end
   end
+
+  describe 'GET /animal' do
+    it "returns a single animal's information" do
+      get '/api/v1/animal', params: {
+        "element_code": "AAAAE01010",
+        "common_name": "Black Warrior Waterdog",
+        "scientific_name": "Necturus alabamensis"  }
+      animal = JSON.parse(response.body, symbolize_names: true)
+
+      expect(response).to be_successful
+    end
+  end
 end
