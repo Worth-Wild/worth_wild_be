@@ -9,7 +9,6 @@ RSpec.describe 'Search Animal' do
     headers = { 'CONTENT_TYPE' => 'application/json', "Accept" => 'application/json' }
     get '/api/v1/search_animal', headers: headers, params: { search: "toad" }
     animal = JSON.parse(response.body, symbolize_names: true)
-    require "pry"; binding.pry
     expect(response).to be_successful
     expect(response.status).to eq(200)
     expect(animal).to be_a Hash
