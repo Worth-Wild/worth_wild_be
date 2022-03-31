@@ -15,9 +15,9 @@ class SearchAnimalSerializer
       end
      }
    end
-   def self.index(animal_result)
+   def self.index(animal_hash)
      {
-     "data": animal_result[:data].map do |result| {
+     "data": animal_hash[:data].map do |result| {
        "id": result.id,
        "type": "animal",
        "attributes":
