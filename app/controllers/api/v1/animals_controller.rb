@@ -34,4 +34,5 @@ class Api::V1::AnimalsController < ApplicationController
       render json: incoming_animal
     end
   end
+
 end
