@@ -2,8 +2,8 @@ class AnimalSerializer
   include JSONAPI::Serializer
   set_id 'id'
   set_type 'animal'
-  def self.format_animal(animal, photo)
 
+  def self.format_animal(animal, photo)
     {
       'attributes': {
         'common_name': animal.common_name,
