@@ -7,10 +7,11 @@ class Api::V1::AnimalsController < ApplicationController
   end
 
   def show
-    incoming_animal = Animal.find_by(scientific_name: params[:scientific_name])
+    incoming_animal = Animal.find_by(common_name: params[:common_name])
     if incoming_animal == nil
       animal = AnimalFacade.get_animal(params[:element_code])
       photo = PhotoFacade.animal_photo(params[:common_name])
+
       Animal.create(
         common_name:  animal.common_name,
         scientific_name:  animal.scientific_name,
