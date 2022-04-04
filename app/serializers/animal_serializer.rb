@@ -3,7 +3,6 @@ class AnimalSerializer
   set_id 'id'
   set_type 'animal'
   def self.format_animal(animal_data, photo)
-
     {
       'attributes': {
         'common_name': animal_data.common_name,
