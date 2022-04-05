@@ -6,52 +6,22 @@ RSpec.describe 'Animal of the Day Endpoint' do
       get '/api/v1/animal_of_the_day'
 
       data = JSON.parse(response.body, symbolize_names: true)
-
       expect(data).to be_a Hash
-      expect(data).to have_key(:attributes)
-      expect(data[:attributes]).to be_a Hash
+      expect(data[:data]).to have_key(:attributes)
+      expect(data[:data][:attributes]).to be_a Hash
 
-      expect(data[:attributes]).to have_key(:common_name)
+      expect(data[:data][:attributes]).to have_key(:common_name)
+      expect(data[:data][:attributes][:common_name]).to be_a String
 
-      expect(data[:attributes]).to have_key(:scientific_name)
-      expect(data[:attributes][:scientific_name]).to be_a String
+      expect(data[:data][:attributes]).to have_key(:element_code)
+      expect(data[:data][:attributes][:element_code]).to be_a String
 
-      expect(data[:attributes]).to have_key(:kingdom)
-      expect(data[:attributes][:kingdom]).to be_a String
+      expect(data[:data][:attributes]).to have_key(:scientific_name)
+      expect(data[:data][:attributes][:scientific_name]).to be_a String
 
-      expect(data[:attributes]).to have_key(:phylum)
-      expect(data[:attributes][:phylum]).to be_a String
+      expect(data[:data][:attributes]).to have_key(:imageUrl)
+      expect(data[:data][:attributes][:imageUrl]).to be_a String
 
-      expect(data[:attributes]).to have_key(:taxclass)
-      expect(data[:attributes][:taxclass]).to be_a String
-
-      expect(data[:attributes]).to have_key(:family)
-      expect(data[:attributes][:family]).to be_a String
-
-      expect(data[:attributes]).to have_key(:genus)
-      expect(data[:attributes][:genus]).to be_a String
-
-      expect(data[:attributes]).to have_key(:region)
-      expect(data[:attributes][:region]).to be_a Hash
-
-      expect(data[:attributes]).to have_key(:vulnerability)
-      expect(data[:attributes][:vulnerability]).to be_a Hash
-
-      expect(data[:attributes]).to have_key(:habitats)
-
-      expect(data[:attributes]).to have_key(:habitatComments)
-
-      expect(data[:attributes]).to have_key(:threatImpactComments)
-
-      expect(data[:attributes]).to have_key(:shortTermTrend)
-
-      expect(data[:attributes]).to have_key(:popSize)
-
-      expect(data[:attributes]).to have_key(:imageUrl)
-      expect(data[:attributes][:imageUrl]).to be_a String
-
-      expect(data[:attributes]).to have_key(:hostUrl)
-      expect(data[:attributes][:hostUrl]).to be_a String
     end
   end
 end
