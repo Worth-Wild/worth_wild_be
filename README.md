@@ -48,7 +48,7 @@ photo_image_key: <enter your key here>
 ### Gems:
 
 <p>
-  <img src="https://img.shields.io/badge/rspec--rails-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" /> 
+  [https://img.shields.io/badge/rspec--rails-b81818.svg?&style=flaste&logo=rubygems&logoColor=white"]
   <img src="https://img.shields.io/badge/pry-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />   
   <img src="https://img.shields.io/badge/simplecov-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />  
   </br>
@@ -61,7 +61,7 @@ photo_image_key: <enter your key here>
 
 ### References
 
-Links to references: [Assignment](https://mod4.turing.edu/projects/capstone/), [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api), [Photo Microservice Repo](https://github.com/Worth-Wild/worth_wild_photo_api), [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
+Links to reference: [Assignment](https://mod4.turing.edu/projects/capstone/), [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api), [Photo Microservice Repo](https://github.com/Worth-Wild/worth_wild_photo_api), [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
