@@ -62,7 +62,7 @@ Then, run the test suite:
 ### References
 
 #####  Data coming from [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api) and [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api)
-Links to reference: [Assignment](https://mod4.turing.edu/projects/capstone/), [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
+Links to reference: [Capstone Project](https://mod4.turing.edu/projects/capstone/) and [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
 
 
 
