@@ -68,6 +68,49 @@ Links to reference: [Capstone Project](https://mod4.turing.edu/projects/capstone
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+
+## <div align="center">API endpoints</div>
+
+<details close="close">
+  <summary>Animal endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
+
+<details close="close">
+  <summary>Search Animal endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
+
+<details close="close">
+  <summary>Animal of the Day endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
+
+<details close="close">
+  <summary>User endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
 ## <div align="center">Overview</div>
 
 Worth Wild BE Repository consumes data from multiple microservices to expose the Worth Wild API for the front-end application to consume.
@@ -139,41 +182,3 @@ Worth Wild BE Repository consumes data from multiple microservices to expose the
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## <div align="center">API endpoints</div>
-
-<details close="close">
-  <summary>animal endpoint</summary>
-  
-  ```
-  example api endpoint
-  ```
-  
-</details>
-
-<details close="close">
-  <summary>Search Animal endpoint</summary>
-  
-  ```
-  example api endpoint
-  ```
-  
-</details>
-
-<details close="close">
-  <summary>Animal of the Day endpoint</summary>
-  
-  ```
-  example api endpoint
-  ```
-  
-</details>
-
-<details close="close">
-  <summary>User endpoint</summary>
-  
-  ```
-  example api endpoint
-  ```
-  
-</details>
