@@ -39,7 +39,7 @@
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
 3. Set up the database: `rails db:{drop,create}`
-4. Get data access from [NatureServ.org](https://www.natureserve.org/access-data) and a photo API from [Bing](https://www.microsoft.com/en-us/bing/apis/bing-image-search-api)
+4. Get data access from [NatureServe.org](https://www.natureserve.org/access-data) and a photo API from [Bing](https://www.microsoft.com/en-us/bing/apis/bing-image-search-api)
 5. Run `figaro install` then enter your image API keys into your `application.yml` file 
 ```
 photo_image_key: <enter your key here>
