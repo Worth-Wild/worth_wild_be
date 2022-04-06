@@ -139,3 +139,41 @@ Worth Wild BE Repository consumes data from multiple microservices to expose the
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## <div align="center">API endpoints</div>
+
+<details close="close">
+  <summary>animal endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
+
+<details close="close">
+  <summary>Search Animal endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
+
+<details close="close">
+  <summary>Animal of the Day endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
+
+<details close="close">
+  <summary>User endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
