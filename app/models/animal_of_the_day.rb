@@ -9,10 +9,12 @@ class AnimalOfTheDay < ApplicationRecord
 
     if !animal.present?
       animal = SearchAnimal.all.sample
+      photo = PhotoFacade.animal_photo(animal.common_name)
       AnimalOfTheDay.create(
         element_code: animal.element_code,
         common_name: animal.common_name,
         scientific_name: animal.scientific_name,
+        image: photo.photo_url,
         date: Date.today
       )
     end
