@@ -39,7 +39,10 @@
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
 3. Set up the database: `rails db:{drop,create,migrate,seed}`
-4. Data coming from [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api) and [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api)
+
+Then, run the test suite:
+
+4. In your terminal, run `bundle exec rspec` to test for global coverage
 
 
 ### Gems:
@@ -58,7 +61,9 @@
 
 ### References
 
+Data coming from [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api) and [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api)
 Links to reference: [Assignment](https://mod4.turing.edu/projects/capstone/), [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
