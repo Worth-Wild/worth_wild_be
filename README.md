@@ -39,11 +39,8 @@
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
 3. Set up the database: `rails db:{drop,create,migrate,seed}`
-4. Get data access from [NatureServe.org](https://www.natureserve.org/access-data) and a photo API from [Bing](https://www.microsoft.com/en-us/bing/apis/bing-image-search-api)
-5. Run `figaro install` then enter your photo API keys into your `application.yml` file 
-```
-photo_api_key: <enter your key here>
-```
+4. Data coming from [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api) and [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api)
+
 
 ### Gems:
 
@@ -61,7 +58,7 @@ photo_api_key: <enter your key here>
 
 ### References
 
-Links to reference: [Assignment](https://mod4.turing.edu/projects/capstone/), [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api), [Photo Microservice Repo](https://github.com/Worth-Wild/worth_wild_photo_api), [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
+Links to reference: [Assignment](https://mod4.turing.edu/projects/capstone/), [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
