@@ -59,6 +59,11 @@ photo_image_key: <enter your key here>
 *Resource links:*
 [rspec-rails](https://github.com/rspec/rspec-rails) | [pry](https://github.com/pry/pry) | [simplecov](https://github.com/simplecov-ruby/simplecov) | [figaro](https://medium.com/@MinimalGhost/the-figaro-gem-an-easier-way-to-securely-configure-rails-applications-c6f963b7e993) | [faraday](https://github.com/lostisland/faraday)
 
+### References
+
+Links to references: [Assignment](https://mod4.turing.edu/projects/capstone/), [Animal Microservice Repo](https://github.com/Worth-Wild/worth_wild_animal_api), [Photo Microservice Repo](https://github.com/Worth-Wild/worth_wild_photo_api), [Front-End Repo](https://github.com/Worth-Wild/worth_wild_fe)
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## <div align="center">Overview</div>
