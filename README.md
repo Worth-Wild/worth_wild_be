@@ -39,10 +39,10 @@
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
 3. Set up the database: `rails db:{drop,create}`
-4. Get API key from [RedList](https://apiv3.iucnredlist.org/api/v3/token)
-5. Run `figaro install` then enter API keys into your `application.yml` file 
+4. Get data access from [NatureServe.org](https://www.natureserve.org/access-data) and a photo API from [Bing](https://www.microsoft.com/en-us/bing/apis/bing-image-search-api)
+5. Run `figaro install` then enter your image API keys into your `application.yml` file 
 ```
-wildlife_key: <enter your key here>
+photo_image_key: <enter your key here>
 ```
 
 ### Gems:
@@ -63,14 +63,15 @@ wildlife_key: <enter your key here>
 
 ## <div align="center">Overview</div>
 
-Worth Wild BE Repository consumes data from multiple APIs to expose the Worth Wild API for the front-end application to consume.
+Worth Wild BE Repository consumes data from multiple microservices to expose the Worth Wild API for the front-end application to consume.
 
 
 ####  Learning Goals Achieved
 
-* Expose an API that aggregates data from multiple external APIs
+* Expose an API that aggregates data from multiple external microservices
 * Expose an API for CRUD functionality
 * Determine completion criteria based on the needs of other developers
+* Communicate with FE team to meet deadlines
 * Research, select, and consume an API based on your needs as a developer
 
 
