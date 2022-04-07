@@ -2,7 +2,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a Getting Started</a>
       <ul>
         <li><a href="#local-setup">Set Up</a></li>
         <li><a href="#gems">Gems</a></li>
