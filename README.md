@@ -81,7 +81,33 @@ Links to reference: [Capstone Project](https://mod4.turing.edu/projects/capstone
   <summary>Animal endpoint</summary>
   
   ```
-  example api endpoint
+  https://secure-island-06435.herokuapp.com/api/v1/animal?common_name=Cheat Mountain Salamander&element_code=AAAAD12120
+  ```
+  
+  ```
+  {
+    "id": 1,
+    "search_animal_id": null,
+    "common_name": "Cheat Mountain Salamander",
+    "scientific_name": "Plethodon nettingi",
+    "kingdom": "Animalia",
+    "phylum": "Craniata",
+    "taxclass": "Amphibia",
+    "taxorder": "Caudata",
+    "family": "Plethodontidae",
+    "genus": "Plethodon",
+    "biome": null,
+    "states": "[\"West Virginia\"]",
+    "habitats": null,
+    "habitat_comments": "Primarily in red spruce-yellow birch or spruce-dominated forests; occasionally collected in mixed deciduous hardwoods (Brooks 1945, 1948; Clovis 1979; Green and Pauley 1987). Bryophytes and downed logs are usually common. Occurs under rocks and in or under logs during day; sometimes among wet leaves. Active on forest floor at night; may climb lower portions of tree trunks (Brooks 1945, 1948; Green and Pauley 1987). Eggs have been found in and under rotting logs, and under rocks (Brooks 1948, Green and Pauley 1987).",
+    "threat_impact_comments": "Populations have been fragmented by habitat modifications such as timbering, burning, mining, recreational development, and road construction. Scientists have speculated that habitat alterations may favor the encroachment of mountain dusky and redback salamanders, which may subsequently out-compete the Cheat Mountain salamander for food and microhabitat. With continued discretion in the management of high-elevation spruce and associated hardwood forests, the future of the Cheat Mountain salamander looks sound. However, long-term habitat changes resulting from acid precipitation and climate change may alter this outlook (West Virginia Division of Natural Resources web site 1998, U.S. Fish and Wildlife Service 2017).",
+    "short_term_trend": "Two studies (reviewed by U.S. Fish and Wildlife Service 2017) across 32 and 35 years indicate that many populations of this species have declined since the 1970's, extending well into the 2000's. Principal factors include interspecific competition and the destruction, modification, and fragmentation of habitats.",
+    "pop_size": "2500 - 100,000 individuals",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.kwFkPEcYFHD6wgkjUgN-qQHaE8&pid=Api",
+    "created_at": "2022-04-06T23:53:58.043Z",
+    "updated_at": "2022-04-06T23:53:58.043Z",
+    "host_url": "https://www.amphibianfact.com/cheat-mountain-salamander.asp"
+}
   ```
   
 </details>
@@ -90,7 +116,22 @@ Links to reference: [Capstone Project](https://mod4.turing.edu/projects/capstone
   <summary>Search Animal endpoint</summary>
   
   ```
-  example api endpoint
+  https://secure-island-06435.herokuapp.com/api/v1/search_animal?search=Alabama Sturgeon
+  ```
+  ```
+  {
+    "data": [
+        {
+            "id": 176,
+            "type": "search_animal",
+            "attributes": {
+                "common_name": "Alabama Sturgeon",
+                "element_code": "AFCAA02030",
+                "scientific_name": "Scaphirhynchus suttkusi"
+            }
+        }
+    ]
+}
   ```
   
 </details>
@@ -99,7 +140,21 @@ Links to reference: [Capstone Project](https://mod4.turing.edu/projects/capstone
   <summary>Animal of the Day endpoint</summary>
   
   ```
-  example api endpoint
+  https://secure-island-06435.herokuapp.com/api/v1/animal_of_the_day
+  ```
+  
+  ```
+  {
+    "data": {
+        "type": "animal_of_the_day",
+        "attributes": {
+            "common_name": "a mayfly",
+            "scientific_name": "Ameletus imbellis",
+            "element_code": "IIEPH15160",
+            "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.nPTG5MB6C6viUFIoaQpXYwHaFj&pid=Api"
+        }
+    }
+}
   ```
   
 </details>
@@ -107,8 +162,70 @@ Links to reference: [Capstone Project](https://mod4.turing.edu/projects/capstone
 <details close="close">
   <summary>User endpoint</summary>
   
+  POST
+  
   ```
-  example api endpoint
+  https://secure-island-06435.herokuapp.com/api/v1/users
+  ```
+  
+  Body
+  ```
+  {
+    "username": "test",
+    "email": "test@test.com",
+    "first_name": "test",
+    "last_name": "test"
+}
+  ```
+  
+  Output
+  
+  ```
+  {
+    "data": {
+        "id": "11",
+        "type": "user",
+        "attributes": {
+            "first_name": "test",
+            "last_name": "test",
+            "username": "test",
+            "email": "test@test.com",
+            "animals": []
+        }
+    }
+}
+  ```
+  
+  GET
+  
+  ```
+  https://secure-island-06435.herokuapp.com/api/v1/dashboard
+  ```
+  
+  Body
+  
+  ```
+  {
+    "username": "test"
+  }
+  ```
+  
+  Output
+  
+  ```
+  {
+    "data": {
+        "id": "11",
+        "type": "user",
+        "attributes": {
+            "first_name": "test",
+            "last_name": "test",
+            "username": "test",
+            "email": "test@test.com",
+            "animals": []
+        }
+    }
+}
   ```
   
 </details>
