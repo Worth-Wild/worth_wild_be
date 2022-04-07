@@ -6,7 +6,11 @@
       <ul>
         <li><a href="#local-setup">Set Up</a></li>
         <li><a href="#gems">Gems</a></li>
+        <li><a href="#references">References</a></li>
       </ul>
+    </li>
+     <li>
+      <a href="#api-endpoints">API endpoints</a>
     </li>
     <li>
       <a href="#overview">Overview</a>
@@ -34,7 +38,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## Local Setup:
+## <div align="center">Local Setup</div>
 
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
