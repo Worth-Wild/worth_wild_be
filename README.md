@@ -40,11 +40,13 @@
 
 ## <div align="center">Local Setup</div>
 
+#### Steps to follow: 
+
 1. Fork and Clone the repo
 2. Install gem packages: `bundle install`
 3. Set up the database: `rails db:{drop,create,migrate,seed}`
 
-Then, run the test suite:
+Then, run the test suite...
 
 4. In your terminal, run `bundle exec rspec` to test for global coverage
 
